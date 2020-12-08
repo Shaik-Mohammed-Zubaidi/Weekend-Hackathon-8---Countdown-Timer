@@ -11,6 +11,7 @@ const App = () => {
     };
   }, [remainingTime]);
   const handleStart = (event) => {
+    console.log("something");
     let inputTime = document.getElementById("timeCount").value;
     if (inputTime.length === 0) {
       setRemainingTime(0);
